@@ -2,7 +2,7 @@
 
 int main()
 {
-	int day;
+	int day, sum;
 	printf("input days: ");
 	scanf("%d",&day);
 	
@@ -11,5 +11,14 @@ int main()
 		printf("ERROR");
 		return 0;
 	}
-
+	
+	printf("\ninput sum: ");
+	scanf("%d",&sum);
+	
+	if (sum<10000)
+	{
+		printf("ERROR");
+		return 0;
+	}
+	
 }
